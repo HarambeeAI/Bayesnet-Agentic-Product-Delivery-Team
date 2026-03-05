@@ -1,354 +1,248 @@
-# 🎭 The Agency: AI Specialists Ready to Transform Your Workflow
+# ⚡ Bayesnet Full Stack Agentic Coding Team
 
-> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-
-[![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+> **A battle-tested AI consulting squad at your fingertips** — From rapid prototypers to reality checkers, from data architects to brand guardians. Every agent is a specialized expert built for Bayes Consulting's rapid prototyping and client delivery workflows.
 
 ---
 
-## 🚀 What Is This?
+## 🧠 What Is This?
 
-Born from a Reddit thread and months of iteration, **The Agency** is a growing collection of meticulously crafted AI agent personalities. Each agent is:
+**Bayesnet Full Stack Agentic Coding Team** is Bayes Consulting's internal AI agent system — a curated collection of specialized agent personalities built on top of [The Agency](https://github.com/msitarzewski/agency-agents) framework, tailored for our consulting delivery model.
 
-- **🎯 Specialized**: Deep expertise in their domain (not generic prompt templates)
-- **🧠 Personality-Driven**: Unique voice, communication style, and approach
-- **📋 Deliverable-Focused**: Real code, processes, and measurable outcomes
-- **✅ Production-Ready**: Battle-tested workflows and success metrics
+Each agent is:
 
-**Think of it as**: Assembling your dream team, except they're AI specialists who never sleep, never complain, and always deliver.
+- **🎯 Specialized**: Deep domain expertise, not generic instructions
+- **🧠 Personality-Driven**: Unique voice, communication style, and consulting mindset
+- **📋 Deliverable-Focused**: Real code, decks, specs, and measurable outcomes
+- **✅ Client-Ready**: Workflows designed for rapid prototyping and consulting handoffs
+- **🔁 Orchestrated**: PRISM pipeline coordinates all agents end-to-end
+
+**Think of it as**: Your Bayes Consulting bench — always on, never tired, and laser-focused on shipping.
 
 ---
 
 ## ⚡ Quick Start
 
-### Option 1: Use with Claude Code (Recommended)
+### Use with Claude Code (Recommended)
 
 ```bash
-# Copy agents to your Claude Code directory
-cp -r agency-agents/* ~/.claude/agents/
-
-# Now activate any agent in your Claude Code sessions:
-# "Hey Claude, activate Frontend Developer mode and help me build a React component"
+# Copy agents to your Claude Code agents directory
+cp -r bayesnet-agents/* ~/.claude/agents/
 ```
 
-### Option 2: Use as Reference
+Then activate in Claude Code:
 
-Each agent file contains:
-- Identity & personality traits
-- Core mission & workflows
-- Technical deliverables with code examples
-- Success metrics & communication style
+```
+/project:bayesnet
+```
 
-Browse the agents below and copy/adapt the ones you need!
+Or activate a specific agent directly:
+
+```
+Activate Rapid Prototyper. Build a Next.js dashboard for client invoice tracking.
+```
 
 ---
 
-## 🎨 The Agency Roster
+## 🗂️ The Bayesnet Roster
+
+### 🏢 Consulting Division *(Bayes-native)*
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 🔍 [Client Discovery](consulting/consulting-client-discovery.md) | Requirements gathering, stakeholder mapping | Kickoff, discovery workshops, scope definition |
+| 🤝 [Engagement Lead](consulting/consulting-engagement-lead.md) | Client relationship, delivery oversight | Project leadership, client comms, scope management |
+| 📦 [Deliverable Packager](consulting/consulting-deliverable-packager.md) | Client-ready output formatting | End-of-sprint packaging, handoffs, executive summaries |
 
 ### 💻 Engineering Division
 
-Building the future, one commit at a time.
-
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 🎨 [Frontend Developer](engineering/engineering-frontend-developer.md) | React/Vue/Angular, UI implementation, performance | Modern web apps, pixel-perfect UIs, Core Web Vitals optimization |
-| 🏗️ [Backend Architect](engineering/engineering-backend-architect.md) | API design, database architecture, scalability | Server-side systems, microservices, cloud infrastructure |
-| 📱 [Mobile App Builder](engineering/engineering-mobile-app-builder.md) | iOS/Android, React Native, Flutter | Native and cross-platform mobile applications |
-| 🤖 [AI Engineer](engineering/engineering-ai-engineer.md) | ML models, deployment, AI integration | Machine learning features, data pipelines, AI-powered apps |
-| 🚀 [DevOps Automator](engineering/engineering-devops-automator.md) | CI/CD, infrastructure automation, cloud ops | Pipeline development, deployment automation, monitoring |
-| ⚡ [Rapid Prototyper](engineering/engineering-rapid-prototyper.md) | Fast POC development, MVPs | Quick proof-of-concepts, hackathon projects, fast iteration |
-| 💎 [Senior Developer](engineering/engineering-senior-developer.md) | Laravel/Livewire, advanced patterns | Complex implementations, architecture decisions |
+| 🎨 [Frontend Developer](engineering/engineering-frontend-developer.md) | React/Vue/Angular, UI, performance | Web apps, pixel-perfect UIs |
+| 🏗️ [Backend Architect](engineering/engineering-backend-architect.md) | API design, database, scalability | Server-side systems, microservices |
+| 📱 [Mobile App Builder](engineering/engineering-mobile-app-builder.md) | iOS/Android, React Native, Flutter | Native and cross-platform mobile |
+| 🤖 [AI Engineer](engineering/engineering-ai-engineer.md) | ML models, AI integration | Machine learning, data pipelines |
+| 🚀 [DevOps Automator](engineering/engineering-devops-automator.md) | CI/CD, infrastructure, cloud | Pipeline dev, deployment automation |
+| ⚡ [Rapid Prototyper](engineering/engineering-rapid-prototyper.md) | Fast POC development, MVPs | Client demos, hackathons, fast iteration |
+| 💎 [Senior Developer](engineering/engineering-senior-developer.md) | Laravel/Livewire, advanced patterns | Complex implementations |
 
 ### 🎨 Design Division
 
-Making it beautiful, usable, and delightful.
-
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 🎯 [UI Designer](design/design-ui-designer.md) | Visual design, component libraries, design systems | Interface creation, brand consistency, component design |
-| 🔍 [UX Researcher](design/design-ux-researcher.md) | User testing, behavior analysis, research | Understanding users, usability testing, design insights |
-| 🏛️ [UX Architect](design/design-ux-architect.md) | Technical architecture, CSS systems, implementation | Developer-friendly foundations, implementation guidance |
-| 🎭 [Brand Guardian](design/design-brand-guardian.md) | Brand identity, consistency, positioning | Brand strategy, identity development, guidelines |
-| 📖 [Visual Storyteller](design/design-visual-storyteller.md) | Visual narratives, multimedia content | Compelling visual stories, brand storytelling |
-| ✨ [Whimsy Injector](design/design-whimsy-injector.md) | Personality, delight, playful interactions | Adding joy, micro-interactions, Easter eggs, brand personality |
-| 📷 [Image Prompt Engineer](design/design-image-prompt-engineer.md) | AI image generation prompts, photography | Photography prompts for Midjourney, DALL-E, Stable Diffusion |
+| 🎯 [UI Designer](design/design-ui-designer.md) | Visual design, component libraries | Interface creation, brand consistency |
+| 🔍 [UX Researcher](design/design-ux-researcher.md) | User testing, behavior analysis | Understanding users, usability testing |
+| 🏛️ [UX Architect](design/design-ux-architect.md) | CSS systems, technical UX | Developer-friendly foundations |
+| 🎭 [Brand Guardian](design/design-brand-guardian.md) | Brand identity, consistency | Brand strategy, guidelines |
+| 📖 [Visual Storyteller](design/design-visual-storyteller.md) | Visual narratives, multimedia | Brand storytelling |
+| ✨ [Whimsy Injector](design/design-whimsy-injector.md) | Personality, delight | Micro-interactions, Easter eggs |
+| 📷 [Image Prompt Engineer](design/design-image-prompt-engineer.md) | AI image generation | Midjourney, DALL-E, Stable Diffusion |
 
 ### 📢 Marketing Division
 
-Growing your audience, one authentic interaction at a time.
-
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 🚀 [Growth Hacker](marketing/marketing-growth-hacker.md) | Rapid user acquisition, viral loops, experiments | Explosive growth, user acquisition, conversion optimization |
-| 📝 [Content Creator](marketing/marketing-content-creator.md) | Multi-platform content, editorial calendars | Content strategy, copywriting, brand storytelling |
-| 🐦 [Twitter Engager](marketing/marketing-twitter-engager.md) | Real-time engagement, thought leadership | Twitter strategy, LinkedIn campaigns, professional social |
-| 📱 [TikTok Strategist](marketing/marketing-tiktok-strategist.md) | Viral content, algorithm optimization | TikTok growth, viral content, Gen Z/Millennial audience |
-| 📸 [Instagram Curator](marketing/marketing-instagram-curator.md) | Visual storytelling, community building | Instagram strategy, aesthetic development, visual content |
-| 🤝 [Reddit Community Builder](marketing/marketing-reddit-community-builder.md) | Authentic engagement, value-driven content | Reddit strategy, community trust, authentic marketing |
-| 📱 [App Store Optimizer](marketing/marketing-app-store-optimizer.md) | ASO, conversion optimization, discoverability | App marketing, store optimization, app growth |
-| 🌐 [Social Media Strategist](marketing/marketing-social-media-strategist.md) | Cross-platform strategy, campaigns | Overall social strategy, multi-platform campaigns |
+| 🚀 [Growth Hacker](marketing/marketing-growth-hacker.md) | User acquisition, viral loops | Explosive growth, conversion optimization |
+| 📝 [Content Creator](marketing/marketing-content-creator.md) | Multi-platform content | Content strategy, copywriting |
+| 🐦 [Twitter Engager](marketing/marketing-twitter-engager.md) | Real-time engagement | Twitter strategy, thought leadership |
+| 📱 [TikTok Strategist](marketing/marketing-tiktok-strategist.md) | Viral content, algorithm | TikTok growth |
+| 📸 [Instagram Curator](marketing/marketing-instagram-curator.md) | Visual storytelling | Instagram strategy |
+| 🤝 [Reddit Community Builder](marketing/marketing-reddit-community-builder.md) | Authentic engagement | Reddit strategy, community trust |
+| 📱 [App Store Optimizer](marketing/marketing-app-store-optimizer.md) | ASO, conversion | App marketing |
+| 🌐 [Social Media Strategist](marketing/marketing-social-media-strategist.md) | Cross-platform strategy | Multi-platform campaigns |
 
 ### 📊 Product Division
 
-Building the right thing at the right time.
-
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 🎯 [Sprint Prioritizer](product/product-sprint-prioritizer.md) | Agile planning, feature prioritization | Sprint planning, resource allocation, backlog management |
-| 🔍 [Trend Researcher](product/product-trend-researcher.md) | Market intelligence, competitive analysis | Market research, opportunity assessment, trend identification |
-| 💬 [Feedback Synthesizer](product/product-feedback-synthesizer.md) | User feedback analysis, insights extraction | Feedback analysis, user insights, product priorities |
+| 🎯 [Sprint Prioritizer](product/product-sprint-prioritizer.md) | Agile planning, prioritization | Sprint planning, backlog management |
+| 🔍 [Trend Researcher](product/product-trend-researcher.md) | Market intelligence | Market research, opportunity assessment |
+| 💬 [Feedback Synthesizer](product/product-feedback-synthesizer.md) | User feedback analysis | Feedback analysis, user insights |
 
 ### 🎬 Project Management Division
 
-Keeping the trains running on time (and under budget).
-
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 🎬 [Studio Producer](project-management/project-management-studio-producer.md) | High-level orchestration, portfolio management | Multi-project oversight, strategic alignment, resource allocation |
-| 🐑 [Project Shepherd](project-management/project-management-project-shepherd.md) | Cross-functional coordination, timeline management | End-to-end project coordination, stakeholder management |
-| ⚙️ [Studio Operations](project-management/project-management-studio-operations.md) | Day-to-day efficiency, process optimization | Operational excellence, team support, productivity |
-| 🧪 [Experiment Tracker](project-management/project-management-experiment-tracker.md) | A/B tests, hypothesis validation | Experiment management, data-driven decisions, testing |
-| 👔 [Senior Project Manager](project-management/project-manager-senior.md) | Realistic scoping, task conversion | Converting specs to tasks, scope management |
+| 🎬 [Studio Producer](project-management/project-management-studio-producer.md) | Portfolio management | Multi-project oversight |
+| 🐑 [Project Shepherd](project-management/project-management-project-shepherd.md) | Cross-functional coordination | End-to-end project coordination |
+| ⚙️ [Studio Operations](project-management/project-management-studio-operations.md) | Day-to-day efficiency | Operational excellence |
+| 🧪 [Experiment Tracker](project-management/project-management-experiment-tracker.md) | A/B tests, hypothesis validation | Experiment management |
+| 👔 [Senior Project Manager](project-management/project-manager-senior.md) | Realistic scoping | Converting specs to tasks |
 
 ### 🧪 Testing Division
 
-Breaking things so users don't have to.
-
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 📸 [Evidence Collector](testing/testing-evidence-collector.md) | Screenshot-based QA, visual proof | UI testing, visual verification, bug documentation |
-| 🔍 [Reality Checker](testing/testing-reality-checker.md) | Evidence-based certification, quality gates | Production readiness, quality approval, release certification |
-| 📊 [Test Results Analyzer](testing/testing-test-results-analyzer.md) | Test evaluation, metrics analysis | Test output analysis, quality insights, coverage reporting |
-| ⚡ [Performance Benchmarker](testing/testing-performance-benchmarker.md) | Performance testing, optimization | Speed testing, load testing, performance tuning |
-| 🔌 [API Tester](testing/testing-api-tester.md) | API validation, integration testing | API testing, endpoint verification, integration QA |
-| 🛠️ [Tool Evaluator](testing/testing-tool-evaluator.md) | Technology assessment, tool selection | Evaluating tools, software recommendations, tech decisions |
-| 🔄 [Workflow Optimizer](testing/testing-workflow-optimizer.md) | Process analysis, workflow improvement | Process optimization, efficiency gains, automation opportunities |
+| 📸 [Evidence Collector](testing/testing-evidence-collector.md) | Screenshot-based QA | UI testing, visual verification |
+| 🔍 [Reality Checker](testing/testing-reality-checker.md) | Evidence-based certification | Production readiness, release gate |
+| 📊 [Test Results Analyzer](testing/testing-test-results-analyzer.md) | Test evaluation, metrics | Quality insights, coverage |
+| ⚡ [Performance Benchmarker](testing/testing-performance-benchmarker.md) | Performance testing | Speed testing, load testing |
+| 🔌 [API Tester](testing/testing-api-tester.md) | API validation | API testing, integration QA |
+| 🛠️ [Tool Evaluator](testing/testing-tool-evaluator.md) | Technology assessment | Tool selection, tech decisions |
+| 🔄 [Workflow Optimizer](testing/testing-workflow-optimizer.md) | Process analysis | Process optimization, automation |
 
 ### 🛟 Support Division
 
-The backbone of the operation.
-
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 💬 [Support Responder](support/support-support-responder.md) | Customer service, issue resolution | Customer support, user experience, support operations |
-| 📊 [Analytics Reporter](support/support-analytics-reporter.md) | Data analysis, dashboards, insights | Business intelligence, KPI tracking, data visualization |
-| 💰 [Finance Tracker](support/support-finance-tracker.md) | Financial planning, budget management | Financial analysis, cash flow, business performance |
-| 🏗️ [Infrastructure Maintainer](support/support-infrastructure-maintainer.md) | System reliability, performance optimization | Infrastructure management, system operations, monitoring |
-| ⚖️ [Legal Compliance Checker](support/support-legal-compliance-checker.md) | Compliance, regulations, legal review | Legal compliance, regulatory requirements, risk management |
-| 📑 [Executive Summary Generator](support/support-executive-summary-generator.md) | C-suite communication, strategic summaries | Executive reporting, strategic communication, decision support |
+| 💬 [Support Responder](support/support-support-responder.md) | Customer service | User support, issue resolution |
+| 📊 [Analytics Reporter](support/support-analytics-reporter.md) | Data analysis, dashboards | Business intelligence, KPI tracking |
+| 💰 [Finance Tracker](support/support-finance-tracker.md) | Financial planning | Budget management, cash flow |
+| 🏗️ [Infrastructure Maintainer](support/support-infrastructure-maintainer.md) | System reliability | Infrastructure, monitoring |
+| ⚖️ [Legal Compliance Checker](support/support-legal-compliance-checker.md) | Compliance, regulations | Legal review, regulatory requirements |
+| 📑 [Executive Summary Generator](support/support-executive-summary-generator.md) | C-suite communication | Executive reporting, decision support |
 
 ### 🥽 Spatial Computing Division
 
-Building the immersive future.
-
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 🏗️ [XR Interface Architect](spatial-computing/xr-interface-architect.md) | Spatial interaction design, immersive UX | AR/VR/XR interface design, spatial computing UX |
-| 💻 [macOS Spatial/Metal Engineer](spatial-computing/macos-spatial-metal-engineer.md) | Swift, Metal, high-performance 3D | macOS spatial computing, Vision Pro native apps |
-| 🌐 [XR Immersive Developer](spatial-computing/xr-immersive-developer.md) | WebXR, browser-based AR/VR | Browser-based immersive experiences, WebXR apps |
-| 🎮 [XR Cockpit Interaction Specialist](spatial-computing/xr-cockpit-interaction-specialist.md) | Cockpit-based controls, immersive systems | Cockpit control systems, immersive control interfaces |
-| 🍎 [visionOS Spatial Engineer](spatial-computing/visionos-spatial-engineer.md) | Apple Vision Pro development | Vision Pro apps, spatial computing experiences |
-| 🔌 [Terminal Integration Specialist](spatial-computing/terminal-integration-specialist.md) | Terminal integration, command-line tools | CLI tools, terminal workflows, developer tools |
+| 🏗️ [XR Interface Architect](spatial-computing/xr-interface-architect.md) | Spatial interaction design | AR/VR/XR interface design |
+| 💻 [macOS Spatial/Metal Engineer](spatial-computing/macos-spatial-metal-engineer.md) | Swift, Metal, 3D | macOS spatial, Vision Pro |
+| 🌐 [XR Immersive Developer](spatial-computing/xr-immersive-developer.md) | WebXR, browser AR/VR | Browser-based immersive experiences |
+| 🎮 [XR Cockpit Interaction Specialist](spatial-computing/xr-cockpit-interaction-specialist.md) | Cockpit controls | Immersive control systems |
+| 🍎 [visionOS Spatial Engineer](spatial-computing/visionos-spatial-engineer.md) | Apple Vision Pro | Vision Pro apps |
+| 🔌 [Terminal Integration Specialist](spatial-computing/terminal-integration-specialist.md) | Terminal, CLI tools | Developer tools, CLI workflows |
 
 ### 🎯 Specialized Division
 
-The unique specialists who don't fit in a box.
-
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
-| 🎭 [Agents Orchestrator](specialized/agents-orchestrator.md) | Multi-agent coordination, workflow management | Complex projects requiring multiple agent coordination |
-| 📊 [Data Analytics Reporter](specialized/data-analytics-reporter.md) | Business intelligence, data insights | Deep data analysis, business metrics, strategic insights |
-| 🔍 [LSP/Index Engineer](specialized/lsp-index-engineer.md) | Language Server Protocol, code intelligence | Code intelligence systems, LSP implementation, semantic indexing |
-| 📥 [Sales Data Extraction Agent](specialized/sales-data-extraction-agent.md) | Excel monitoring, sales metric extraction | Sales data ingestion, MTD/YTD/Year End metrics |
-| 📈 [Data Consolidation Agent](specialized/data-consolidation-agent.md) | Sales data aggregation, dashboard reports | Territory summaries, rep performance, pipeline snapshots |
-| 📬 [Report Distribution Agent](specialized/report-distribution-agent.md) | Automated report delivery | Territory-based report distribution, scheduled sends |
+| 🎭 [Agents Orchestrator](specialized/agents-orchestrator.md) | Multi-agent coordination | Complex multi-agent pipelines |
+| 📊 [Data Analytics Reporter](specialized/data-analytics-reporter.md) | Business intelligence | Deep data analysis, metrics |
+| 🔍 [LSP/Index Engineer](specialized/lsp-index-engineer.md) | Language Server Protocol | Code intelligence systems |
+| 📥 [Sales Data Extraction Agent](specialized/sales-data-extraction-agent.md) | Sales metric extraction | Sales data ingestion |
+| 📈 [Data Consolidation Agent](specialized/data-consolidation-agent.md) | Data aggregation | Territory summaries, dashboards |
+| 📬 [Report Distribution Agent](specialized/report-distribution-agent.md) | Automated report delivery | Scheduled report distribution |
 
 ---
 
-## 🎯 Real-World Use Cases
+## 🚀 PRISM Pipeline
 
-### Scenario 1: Building a Startup MVP
+**PRISM** (Pipeline for Rapid Iterative Specification and Manufacture) is Bayesnet's orchestration engine — it sequences all agents into a coordinated delivery machine.
 
-**Your Team**:
-1. 🎨 **Frontend Developer** - Build the React app
-2. 🏗️ **Backend Architect** - Design the API and database
-3. 🚀 **Growth Hacker** - Plan user acquisition
-4. ⚡ **Rapid Prototyper** - Fast iteration cycles
-5. 🔍 **Reality Checker** - Ensure quality before launch
+| Mode | Agents | Timeline | Use Case |
+|------|--------|----------|----------|
+| **PRISM-Full** | All | 12-24 weeks | Complete client product lifecycle |
+| **PRISM-Sprint** | 15-25 | 2-6 weeks | Feature, MVP, or client prototype |
+| **PRISM-Micro** | 5-10 | 1-5 days | Bug fix, audit, or targeted task |
 
-**Result**: Ship faster with specialized expertise at every stage.
+### Activate PRISM-Sprint
 
----
+```
+Activate Agents Orchestrator in PRISM-Sprint mode.
 
-### Scenario 2: Marketing Campaign Launch
+Client: [CLIENT NAME]
+Engagement: [DESCRIBE THE PROJECT]
+Timeline: [TARGET WEEKS]
 
-**Your Team**:
-1. 📝 **Content Creator** - Develop campaign content
-2. 🐦 **Twitter Engager** - Twitter strategy and execution
-3. 📸 **Instagram Curator** - Visual content and stories
-4. 🤝 **Reddit Community Builder** - Authentic community engagement
-5. 📊 **Analytics Reporter** - Track and optimize performance
-
-**Result**: Multi-channel coordinated campaign with platform-specific expertise.
-
----
-
-### Scenario 3: Enterprise Feature Development
-
-**Your Team**:
-1. 👔 **Senior Project Manager** - Scope and task planning
-2. 💎 **Senior Developer** - Complex implementation
-3. 🎨 **UI Designer** - Design system and components
-4. 🧪 **Experiment Tracker** - A/B test planning
-5. 📸 **Evidence Collector** - Quality verification
-6. 🔍 **Reality Checker** - Production readiness
-
-**Result**: Enterprise-grade delivery with quality gates and documentation.
+Run the pipeline:
+- Discovery: Client Discovery
+- PM: Senior Project Manager + Sprint Prioritizer
+- Design: UX Architect + Brand Guardian
+- Engineering: Frontend Developer + Backend Architect + DevOps Automator
+- QA: Evidence Collector + Reality Checker + API Tester
+- Delivery: Deliverable Packager + Executive Summary Generator
+```
 
 ---
 
-## 🤝 Contributing
+## 🏢 Consulting Scenarios
 
-We welcome contributions! Here's how you can help:
+### Rapid Client Prototype (2-3 Days)
+```
+1. ⚡ Rapid Prototyper — Build the POC
+2. 🔍 Reality Checker — Validate quality
+3. 📦 Deliverable Packager — Package for client demo
+```
 
-### Add a New Agent
+### Discovery to Delivery Engagement (2-6 Weeks)
+```
+1. 🔍 Client Discovery — Map requirements and stakeholders
+2. 👔 Senior Project Manager — Convert to tasks and timeline
+3. 🏗️ Backend Architect + 🎨 Frontend Developer — Build
+4. 🔍 Reality Checker — Quality gate
+5. 📑 Executive Summary Generator — Client report
+6. 📦 Deliverable Packager — Final handoff
+```
 
-1. Fork the repository
-2. Create a new agent file in the appropriate category
-3. Follow the agent template structure:
-   - Frontmatter with name, description, color
-   - Identity & Memory section
-   - Core Mission
-   - Critical Rules (domain-specific)
-   - Technical Deliverables with examples
-   - Workflow Process
-   - Success Metrics
-4. Submit a PR with your agent
-
-### Improve Existing Agents
-
-- Add real-world examples
-- Enhance code samples
-- Update success metrics
-- Improve workflows
-
-### Share Your Success Stories
-
-Have you used these agents successfully? Share your story in the [Discussions](https://github.com/msitarzewski/agency-agents/discussions)!
+### Data & AI Project
+```
+1. 🔍 Client Discovery — Define data sources and KPIs
+2. 🤖 AI Engineer — Pipeline and model development
+3. 📊 Data Analytics Reporter — Insights and dashboards
+4. 📑 Executive Summary Generator — Stakeholder presentation
+```
 
 ---
 
-## 📖 Agent Design Philosophy
+## 🛠️ Claude Code Integration
 
-Each agent is designed with:
+### Install Agents
+```bash
+cp -r bayesnet-agents/* ~/.claude/agents/
+```
 
-1. **🎭 Strong Personality**: Not generic templates - real character and voice
-2. **📋 Clear Deliverables**: Concrete outputs, not vague guidance
-3. **✅ Success Metrics**: Measurable outcomes and quality standards
-4. **🔄 Proven Workflows**: Step-by-step processes that work
-5. **💡 Learning Memory**: Pattern recognition and continuous improvement
+### Slash Command
+In any Claude Code session, run:
+```
+/project:bayesnet
+```
 
----
-
-## 🎁 What Makes This Special?
-
-### Unlike Generic AI Prompts:
-- ❌ Generic "Act as a developer" prompts
-- ✅ Deep specialization with personality and process
-
-### Unlike Prompt Libraries:
-- ❌ One-off prompt collections
-- ✅ Comprehensive agent systems with workflows and deliverables
-
-### Unlike AI Tools:
-- ❌ Black box tools you can't customize
-- ✅ Transparent, forkable, adaptable agent personalities
+This activates the Bayesnet team router — describe your task and the right agents are assigned.
 
 ---
 
-## 🎨 Agent Personality Highlights
+## 📜 License & Attribution
 
-> "I don't just test your code - I default to finding 3-5 issues and require visual proof for everything."
->
-> — **Evidence Collector** (Testing Division)
+Built on [The Agency](https://github.com/msitarzewski/agency-agents) by msitarzewski — MIT Licensed.
 
-> "You're not marketing on Reddit - you're becoming a valued community member who happens to represent a brand."
->
-> — **Reddit Community Builder** (Marketing Division)
-
-> "Every playful element must serve a functional or emotional purpose. Design delight that enhances rather than distracts."
->
-> — **Whimsy Injector** (Design Division)
-
-> "Let me add a celebration animation that reduces task completion anxiety by 40%"
->
-> — **Whimsy Injector** (during a UX review)
-
----
-
-## 📊 Stats
-
-- 🎭 **55+ Specialized Agents** across 9 divisions
-- 📝 **10,000+ lines** of personality, process, and code examples
-- ⏱️ **Months of iteration** from real-world usage
-- 🌟 **Battle-tested** in production environments
-- 💬 **50+ requests** in first 12 hours on Reddit
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Interactive agent selector web tool
-- [ ] Multi-agent workflow examples
-- [ ] Video tutorials on agent design
-- [ ] Community agent marketplace
-- [ ] Agent "personality quiz" for project matching
-- [ ] Integration examples with popular tools
-- [ ] "Agent of the Week" showcase series
-
----
-
-## 📜 License
-
-MIT License - Use freely, commercially or personally. Attribution appreciated but not required.
-
----
-
-## 🙏 Acknowledgments
-
-Born from a Reddit discussion about AI agent specialization. Thanks to the community for the feedback, requests, and inspiration.
-
-Special recognition to the 50+ Redditors who requested this within the first 12 hours - you proved there's demand for real, specialized AI agent systems.
-
----
-
-## 💬 Community
-
-- **GitHub Discussions**: [Share your success stories](https://github.com/msitarzewski/agency-agents/discussions)
-- **Issues**: [Report bugs or request features](https://github.com/msitarzewski/agency-agents/issues)
-- **Reddit**: Join the conversation on r/ClaudeAI
-- **Twitter/X**: Share with #TheAgency
-
----
-
-## 🚀 Get Started
-
-1. **Browse** the agents above and find specialists for your needs
-2. **Copy** the agents to `~/.claude/agents/` for Claude Code integration
-3. **Activate** agents by referencing them in your Claude conversations
-4. **Customize** agent personalities and workflows for your specific needs
-5. **Share** your results and contribute back to the community
+Bayesnet customizations © Bayes Consulting.
 
 ---
 
 <div align="center">
 
-**🎭 The Agency: Your AI Dream Team Awaits 🎭**
+**⚡ Bayesnet Full Stack Agentic Coding Team**
 
-[⭐ Star this repo](https://github.com/msitarzewski/agency-agents) • [🍴 Fork it](https://github.com/msitarzewski/agency-agents/fork) • [🐛 Report an issue](https://github.com/msitarzewski/agency-agents/issues)
-
-Made with ❤️ by the community, for the community
+*Rapid prototyping. Client-ready delivery. Always shipping.*
 
 </div>
