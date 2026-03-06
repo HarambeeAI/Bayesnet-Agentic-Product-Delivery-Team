@@ -159,11 +159,11 @@ Activate Rapid Prototyper. Build a Next.js dashboard for client invoice tracking
 
 **PRISM** (Pipeline for Rapid Iterative Specification and Manufacture) is Bayesnet's orchestration engine — it sequences all agents into a coordinated delivery machine.
 
-| Mode | Agents | Timeline | Use Case |
-|------|--------|----------|----------|
-| **PRISM-Full** | All | 12-24 weeks | Complete client product lifecycle |
-| **PRISM-Sprint** | 15-25 | 2-6 weeks | Feature, MVP, or client prototype |
-| **PRISM-Micro** | 5-10 | 1-5 days | Bug fix, audit, or targeted task |
+| Mode | Agents | Use Case |
+|------|--------|----------|
+| **PRISM-Full** | All | Complete client product lifecycle |
+| **PRISM-Sprint** | 15-25 | Feature, MVP, or client prototype |
+| **PRISM-Micro** | 5-10 | Targeted task, audit, or prototype |
 
 ### Activate PRISM-Sprint
 

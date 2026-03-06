@@ -55,11 +55,11 @@ The Bayesnet Full Stack Agentic Coding Team comprises specialized AI agents acro
 
 ## 5. THREE DEPLOYMENT MODES
 
-| Mode | Agents | Timeline | Use Case |
-|------|--------|----------|----------|
-| **PRISM-Full** | All | 12-24 weeks | Complete client product lifecycle |
-| **PRISM-Sprint** | 15-25 | 2-6 weeks | Feature, MVP, or client prototype |
-| **PRISM-Micro** | 5-10 | 1-5 days | Prototype, audit, targeted task |
+| Mode | Agents | Use Case |
+|------|--------|----------|
+| **PRISM-Full** | All | Complete client product lifecycle |
+| **PRISM-Sprint** | 15-25 | Feature, MVP, or client prototype |
+| **PRISM-Micro** | 5-10 | Prototype, audit, or targeted task |
 
 ---
 
